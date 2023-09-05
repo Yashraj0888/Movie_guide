@@ -3,6 +3,7 @@
  let searchBtn = document.getElementById("search-btn");
  let result = document.getElementById("result");
  
+ 
  //function to fetch data from api
  
  let getMovie = () => {
@@ -53,7 +54,7 @@
              });
      }
  };
- 
+
  searchBtn.addEventListener("click", getMovie);
  window.addEventListener("load", getMovie);
 
