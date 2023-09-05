@@ -14,8 +14,13 @@ body{
     background: linear-gradient(#81FFEF  , #F067B4);
 }
 
+.welcome{
+    margin-bottom: 50px;
+}
+
 .welcome h1{
     margin-top: 50px;
+    
    
     text-align: center;
     color: #1F4037;
@@ -34,6 +39,7 @@ body{
     position: absolute;
     background-color: #1e293b;
     transform: translate(-50%,-50%);
+    margin-top: 50px;
     top: 50%;
     left: 50%;
     border-radius: 0.6em;
@@ -178,6 +184,9 @@ p{
 }
 
 @media screen and (max-width: 600px){
+    .welcome h1{
+        font-size:35px;
+    }
     .container{
         font-size: 14px;
 
@@ -194,3 +203,4 @@ p{
         grid-template-columns: 1fr;
     }
 }
+

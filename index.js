@@ -1,6 +1,4 @@
  const APIKey='6c3dac179330977a5a0d1b7501a667e9';
-
-
  let movieNameRef = document.getElementById("movie-name");
  let searchBtn = document.getElementById("search-btn");
  let result = document.getElementById("result");
